@@ -1,0 +1,29 @@
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    z-index: 100;
+}
+
+.navbar {
+    margin-left: 800px;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: #132743;
+    font-weight: 500;
+    margin-left: 40px;
+    text-decoration: none; 
+}
+
+.navbar a:hover {
+    color:#407088;
+    transform: translateY(-3px);
+}
